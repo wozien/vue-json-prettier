@@ -15,7 +15,10 @@
   ],
   "author": "wozien",
   "license": "ISC",
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wozien/vue-json-prettier.git"
+  },
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
