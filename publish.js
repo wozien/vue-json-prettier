@@ -20,6 +20,16 @@ const publishConfig = merge(webpackConfig, {
     libraryTarget: 'umd'  // 打包的格式
   },
 
+  // 不打包vue,但使用该类库需要外部引入
+  externals: {
+    vue: {
+      root: 'Vue',
+      commonjs: 'vue',
+      commonjs2: 'vue',
+      amd: 'vue'
+    }
+  },
+
   plugins: [
     new CopyWebpackPlugin([
       {

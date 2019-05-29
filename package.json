@@ -1,6 +1,6 @@
 {
   "name": "vue-json-prettier",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "a json beautify kit base on vue.js",
   "main": "index.js",
   "scripts": {
